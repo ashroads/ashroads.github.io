@@ -26,6 +26,10 @@ nav a {
 	padding: 20px 0;
 }
 
+nav a:hover {
+	color: #707070;
+}
+
 body {
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px; /*1em = 16px*/
@@ -45,11 +49,17 @@ h2 {
 	font-family: 'Roboto', sans-serif;
  	font-size: 1em;
  	font-weight: 400;
- 	color: #707070;
+ 	color: black;
+ 	padding-left: 20px;
 }
 
 a {
 	text-decoration: none;
+}
+
+p {
+	text-decoration: none;
+	color: #707070;
 }
 
 .hero-unit img {
@@ -58,10 +68,20 @@ a {
 
 .destination-image img 
 {
-    max-width:400px;
-    height:auto;
+    max-width: 800px;
+    height: auto;
+    padding: 20px;
 }
 
-#slogan	{
+#destinations {
+	margin: 0 auto;
+}
+
+footer {
+
+}
+
+/*#slogan	{
 	font-style: italic;
 }
+*/
