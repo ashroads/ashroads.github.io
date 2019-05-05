@@ -67,7 +67,7 @@ a {
   float: left;
 }*/
 
-#two_column {    
+#ny_ca {    
     padding: 20px;
 }
 
@@ -108,17 +108,17 @@ a {
 #one {
 
 }
-#two {
+#oman_obx_guad {
 
 }
-#two > div {
+#oman_obx_guad > div {
     padding: 20px;
     float: left;
     width: 50%;
 }
 
 .inner-column > a {
-    padding: 20px;
+    //padding: 20px;
     float: left;
     width: 50%;
 }
