@@ -92,7 +92,19 @@ a {
     height: 0;
 }
 
+.overlay a {
+	display:block;
+	position:relative;
 }
+
+.overlay a div {
+	position: absolute;
+	top:50%;
+	text-align: center;
+	left:0;
+	right:0;
+}
+
 #one {
 
 }
@@ -100,5 +112,20 @@ a {
 
 }
 #two > div {
-
+    padding: 20px;
+    float: left;
+    width: 50%;
 }
+
+.inner-column > a {
+    padding: 20px;
+    float: left;
+    width: 50%;
+}
+
+
+
+
+
+
+
