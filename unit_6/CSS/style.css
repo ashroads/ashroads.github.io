@@ -15,7 +15,15 @@ test
 	margin: 0;
 	box-sizing:border-box;
 }
-img { width:100%; }
+
+div {
+	display: block;
+}
+
+img { 
+	width:100%;
+	display: block;
+	}
 
 body {
 	font-family: 'Roboto', sans-serif;
@@ -72,7 +80,7 @@ p a {
 }
 
 footer div {
-	margin: 40px;
+	/*margin: 40px;*/
 	padding: 2em;
 	background: #707070;
 }
@@ -97,18 +105,15 @@ span {
   float: left;
 }*/
 
-#ny_ca {    
-    padding: 20px;
-}
 
 #left {
-    padding: 20px;
+    /*padding: 20px;*/
     float: left;
     width: 50%;
 }
 
 #right {
-    padding: 20px;
+    /*padding: 20px;*/
     float: right;   
     width: 50%;
 }
@@ -133,31 +138,26 @@ span {
 	text-align: center;
 	left:0;
 	right:0;
+	transform: translateY(-50%);
 }
 
 #one {
 
 }
-#oman_obx_guad {
+#example {
 
 }
-#oman_obx_guad > div {
-    padding-left: 40px;
-    padding-right: 20px;
+#example > div {
     float: left;
     width: 50%;
 }
 
 .inner-column-1 > a {
-    padding-left: 0;
-    padding-right: 20px;
-    padding-bottom: 40px;
     float: left;
     width: 50%;
 }
 
 .inner-column-2 > a {
-    padding-top: 40px;
     float: left;
     width: 50%;
 }
