@@ -45,6 +45,12 @@ nav a {
 nav a:hover {
 	color: #707070;
 }
+
+.wrapper {
+	width: 1041px;
+	margin: auto;
+}
+
 h1 {
 	font-family: 'Roboto', sans-serif;
  	font-size: 2em;
